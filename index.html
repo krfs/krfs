@@ -2,9 +2,415 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Krfs</title>
+    <title>Title</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <img style="width: 100%;" src="./buildings.png" alt="website-under-constructor">
+    <header class="container-fluid" id="header">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="logo.png" alt="logo">
+                    <div class="info-container">
+                        <div class="info">KR Financial Services Ltd</div>
+                        <div class="sub-info">Mortgage | Insurance | Service</div>
+                    </div>
+                </div>
+                <div class="contact hidden-xs hidden-sm">
+                    <div class="phone-contact">
+                        <div class="phone-icon-container">
+                            <span class="glyphicon glyphicon-earphone phone-icon" aria-hidden="true"></span>
+                        </div>
+                        <div class="phone-number">0800 999 588</div>
+                    </div>
+                    <div class="phone-contact">
+                        <div class="phone-icon-container">
+                            <span class="glyphicon glyphicon-envelope phone-icon" aria-hidden="true"></span>
+                        </div>
+                        <div class="phone-number">info@krfs.co.nz</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="carousel-cover"></div>
+            <div class="item bg bg1 active">
+                <!--<img src="carousel/Family_and_Personal_Protection.png">-->
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>制定您家庭的保障计划</h1>
+                        <p>人寿，重大疾病，残疾</p>
+                        <p>收入保障，医疗保障等等</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg bg2">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>房屋或商业贷款</h1>
+                        <p>我们是以下公司的认证顾问，并推荐我们认为最适合您的情况和要求的产品和解决方案给您</p>
+                        <p style="font-size: 0.7em">ANZ, ASB, BNZ, Westpac, 中国银行和建设银行</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg bg3">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>商业（公司和个体）保障</h1>
+                        <p>公司重要成员，收入损失，债务保护，所有权收购等等</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg bg4">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>踏入新西兰后，我们为您保驾护航</h1>
+                        <p>无论您是持旅行签证或者是学生签证入境新西兰，一份新西兰旅游险或者国际留学生保险让你无需对您的财产，健康状况等问题担忧</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--<section class="container-fluid info-icon-container">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-12 col-sm-6 col-md-3 info-icon-inner-container">-->
+                    <!--<img class="img" src="icon/loan.svg" alt="carousel-img">-->
+                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-wrench info-icon" aria-hidden="true"></span>&ndash;&gt;-->
+                    <!--<span class="icon-title">Service Range</span>-->
+                    <!--<span class="icon-content">To provide the best results possible, we consistently maintain a high level of workmanship that meets NZ standards</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-12 col-sm-6 col-md-3 info-icon-inner-container">-->
+                    <!--<span class="glyphicon glyphicon-user info-icon" aria-hidden="true"></span>-->
+                    <!--<span class="icon-title">Workmanship</span>-->
+                    <!--<span class="icon-content">To provide the best results possible, we consistently maintain a high level of workmanship that meets NZ standards</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-12 col-sm-6 col-md-3 info-icon-inner-container">-->
+                    <!--<span class="glyphicon glyphicon-file info-icon" aria-hidden="true"></span>-->
+                    <!--<span class="icon-title">Warranty</span>-->
+                    <!--<span class="icon-content">To provide the best results possible, we consistently maintain a high level of workmanship that meets NZ standards</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-12 col-sm-6 col-md-3 info-icon-inner-container">-->
+                    <!--<span class="glyphicon glyphicon-envelope info-icon" aria-hidden="true"></span>-->
+                    <!--<span class="icon-title">Auckland</span>-->
+                    <!--<span class="icon-content">To provide the best results possible, we consistently maintain a high level of workmanship that meets NZ standards</span>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+    <section class="container-fluid detail-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 detail-item-container">
+                    <div class="col-xs-12">
+                        <img src="img/about_us.png" alt="Medical health insurance">
+                    </div>
+                    <div class="col-xs-12 detail-item-content-container">
+                        <div class="detail-title">关于康瑞金融保险公司</div>
+                        <div class="detail-content">
+                            <p>公司成立于2012年，公司创始人张雯（Karen Zhang）在AIA友邦保险公司从业数年，多年蝉联MDRT和IDA行业殊荣。因为个人理念，她希望把市面上所有的保险产品分享给需要的人，让大家更广泛的了解各个保险公司，并找到更适合自己和家庭的保险，并不只局限于一家。公司提供保险、贷款和售后的服务。让大家无需咨询多加保险公司，通过我们即可理清自身需求，客观和全面的了解市场最新产品信息。帮您省时、省钱、省力和省心</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detail-item-container">
+                    <div class="col-xs-12">
+                        <img src="img/Medical_Health_Insurance.png" alt="Medical health insurance">
+                    </div>
+                    <div class="col-xs-12 detail-item-content-container">
+                        <div class="detail-title">医疗保险</div>
+                        <div class="detail-content">
+                            <p>在新西兰全面的医疗制度下，医疗保险能为您和您的家人提供‘不排队’的医疗保障，同时负担昂贵的非政府补助的自费药。医疗保险大致包含以下内容：</p>
+                            <p>手术 / 非手术住院 / 大型检查 / 癌症治疗和自费药</p>
+                            <p>专家 / 普通包含家庭医生和其他小型检查</p>
+                            <p>海外治疗 / 澳洲地区治疗</p>
+                            <p>公立医院现金福利 / 忠实用户福利</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detail-item-container">
+                    <div class="col-xs-12">
+                        <img src="img/Life_and_Trauma_Insurance.png" alt="Life and trauma insurance">
+                    </div>
+                    <div class="col-xs-12 detail-item-content-container">
+                        <div class="detail-title">人寿和重大疾病保险</div>
+                        <div class="detail-content">
+                            <p>计划人生，享受未来。为您所爱的人制定一个长远计划，令您不需要为预料不到的健康状况而操心，为庞大的医疗费用支出而担忧。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 detail-item-container">
+                    <div class="col-xs-12">
+                        <img src="img/mortgage_advice.png" alt="Medical health insurance">
+                    </div>
+                    <div class="col-xs-12 detail-item-content-container">
+                        <div class="detail-title">房屋贷款和商业贷款</div>
+                        <div class="detail-content">
+                            <p>我们有数年贷款经验，作为新西兰和中国各银行的贷款顾问（Broker）。提供全面快速的房贷和商业贷款的解决方案。我们提供免费银行贷款预批、免费银行估价报告、免费个人信用报告。商业贷款包括购买生意贷款，生意经营用贷款和商业地产贷款。商业地产贷款跟住房贷款一样有很多相同的地方，但在贷款比例，利率，及要求的收入方面是不一样的。具体请来电咨询0800 999 588</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detail-item-container">
+                    <div class="col-xs-12">
+                        <img src="img/student_visa.png" alt="about us">
+                    </div>
+                    <div class="col-xs-12 detail-item-content-container">
+                        <div class="detail-title">国际留学生保险</div>
+                        <div class="detail-content">
+                            <p>在新西兰留学期间必须要购买的保障，我们为你提供亲切耐心的解答和售后理赔服务</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detail-item-container">
+                    <div class="col-xs-12">
+                        <img src="img/Visiting_New_Zealand_travel_insurance.png" alt="Visiting New Zealand travel insurance">
+                    </div>
+                    <div class="col-xs-12 detail-item-content-container">
+                        <div class="detail-title">新西兰境内旅游保险</div>
+                        <div class="detail-content">
+                            <p>为您承担在新西兰境内旅游期间的各项风险，并提供售后理赔服务</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 detail-item-container">
+                    <div class="col-xs-12">
+                        <img src="img/contact_us.png" alt="Medical health insurance">
+                    </div>
+                    <div class="col-xs-12 detail-item-content-container">
+                        <div class="detail-title">售后服务内容</div>
+                        <div class="detail-content">
+                            <p>我们提供终身免费的售后服务，包括保险方面的理赔、预批、年度回访、保单续期提醒。贷款方面的每年贷款更新利率，贷款重组。我们提供华人最为便捷的微信沟通，随时随地回答您的各方面问题。我们也设立客服热线：0800 999 588</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section class="container-fluid detail-container hidden-xs">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-12 detail-item-container">-->
+                    <!--<div class="col-sm-5 detail-item-content-container">-->
+                        <!--<div class="detail-title">关于康瑞金融保险公司</div>-->
+                        <!--<div class="detail-content">-->
+                            <!--<p>公司成立于2012年，公司创始人张雯（Karen Zhang）在AIA友邦保险公司从业数年，多年蝉联MDRT和IDA行业殊荣。因为个人理念，她希望把市面上所有的保险产品分享给需要的人，让大家更广泛的了解各个保险公司，并找到更适合自己和家庭的保险，并不只局限于一家。公司提供保险、贷款和售后的服务。让大家无需咨询多加保险公司，通过我们即可理清自身需求，客观和全面的了解市场最新产品信息。帮您省时、省钱、省力和省心</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-12 col-sm-7">-->
+                        <!--<img src="img/Medical_Health_Insurance.png" alt="medical health insurance">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 detail-item-container">-->
+                    <!--<div class="col-sm-5 detail-item-content-container">-->
+                        <!--<div class="detail-title">售后服务内容</div>-->
+                        <!--<div class="detail-content">-->
+                            <!--<p>我们提供终身免费的售后服务，包括保险方面的理赔、预批、年度回访、保单续期提醒。贷款方面的每年贷款更新利率，贷款重组。我们提供华人最为便捷的微信沟通，随时随地回答您的各方面问题。我们也设立客服热线：0800 999 588</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-12 col-sm-7">-->
+                        <!--<img src="img/Medical_Health_Insurance.png" alt="medical health insurance">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 detail-item-container">-->
+                    <!--<div class="col-sm-5 detail-item-content-container">-->
+                        <!--<div class="detail-title">房屋贷款和商业贷款</div>-->
+                        <!--<div class="detail-content">-->
+                            <!--<p>我们有数年贷款经验，作为新西兰和中国各银行的贷款顾问（Broker）。提供全面快速的房贷和商业贷款的解决方案。我们提供免费银行贷款预批、免费银行估价报告、免费个人信用报告。商业贷款包括购买生意贷款，生意经营用贷款和商业地产贷款。商业地产贷款跟住房贷款一样有很多相同的地方，但在贷款比例，利率，及要求的收入方面是不一样的。具体请来电咨询0800 999 588</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-12 col-sm-7">-->
+                        <!--<img src="img/Medical_Health_Insurance.png" alt="medical health insurance">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 detail-item-container">-->
+                    <!--<div class="col-sm-5 detail-item-content-container">-->
+                        <!--<div class="detail-title">医疗保险</div>-->
+                        <!--<div class="detail-content">-->
+                            <!--<p>在新西兰全面的医疗制度下，医疗保险能为您和您的家人提供‘不排队’的医疗保障，同时负担昂贵的非政府补助的自费药。医疗保险大致包含以下内容：</p>-->
+                            <!--<p>手术</p>-->
+                            <!--<p>非手术住院</p>-->
+                            <!--<p>癌症治疗和自费药</p>-->
+                            <!--<p>大型检查</p>-->
+                            <!--<p>专家</p>-->
+                            <!--<p>普通包含家庭医生和其他小型检查</p>-->
+                            <!--<p>海外治疗</p>-->
+                            <!--<p>澳洲地区治疗</p>-->
+                            <!--<p>公立医院现金福利</p>-->
+                            <!--<p>忠实用户福利</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-12 col-sm-7">-->
+                        <!--<img src="img/Medical_Health_Insurance.png" alt="medical health insurance">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 detail-item-container">-->
+                    <!--<div class="col-xs-12 col-sm-7">-->
+                        <!--<img src="img/Life_and_Trauma_Insurance.png" alt="Life and trauma insurance">-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-12 col-sm-5 detail-item-content-container">-->
+                        <!--<div class="detail-title">人寿和重大疾病保险</div>-->
+                        <!--<div class="detail-content">-->
+                            <!--<p>计划人生，享受未来。为您所爱的人制定一个长远计划，令您不需要为预料不到的健康状况而操心，为庞大的医疗费用支出而担忧。</p>-->
+                            <!--<p>贷款和收入保障</p>-->
+                            <!--<p>永久残章（全残）险</p>-->
+                            <!--<p>重大疾病保险</p>-->
+                            <!--<p>豁免保费</p>-->
+                            <!--<p>人寿保险</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 detail-item-container">-->
+                    <!--<div class="col-xs-12 col-sm-5 detail-item-content-container">-->
+                        <!--<div class="detail-title">新西兰境内旅游保险</div>-->
+                        <!--<div class="detail-content">-->
+                            <!--<p>为您承担在新西兰境内旅游期间的各项风险，并提供售后理赔服务</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-12 col-sm-7">-->
+                        <!--<img src="img/Visiting_New_Zealand_travel_insurance.png" alt="Visiting New Zealand travel insurance">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-md-12 detail-item-container">-->
+                    <!--<div class="col-xs-12 col-sm-7">-->
+                        <!--<img src="img/student_visa.png" alt="about us">-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-12 col-sm-5 detail-item-content-container">-->
+                        <!--<div class="detail-title">国际留学生保险</div>-->
+                        <!--<div class="detail-content">-->
+                            <!--<p>在新西兰留学期间必须要购买的保障，我们为你提供亲切耐心的解答和售后理赔服务</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+    <section class="container-fluid partner-container">
+        <div class="container partner-inner-container">
+            <img class="partner-icon" src="partner/accuro.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/aia.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/asteronlife.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/fidelitylife.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/nib.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/onepath.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/partnerslife.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/southerncross.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/sovereign.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/orbit-protect-logo.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/anz.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/bnz.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/westpac.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/bank-of-china.png" alt="partner-icon">
+            <img class="partner-icon" src="partner/construcion.png" alt="partner-icon">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+                <div class="left-section">
+                    <div class="left-section-container">
+                        <div>
+                            <p>座机：09 215 4927 或 0800 999 588</p>
+                            <p>手机：021 915588</p>
+                        </div>
+                        <div>
+                            <p>邮箱：info@krfs.co.nz</p>
+                            <p>地址：Unit 5, 20 Northcroft St, Takapuna, Auckland, New Zealand</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#termsModal">Terms</a> |
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#privacyModal">Privacy</a> |
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Disclosure</a>
+                    <p>Register Financial Adviser No:FSP15221</p>
+                    <p>版权所有 &#9400; 2019 康瑞金融保险公司</p>
+                </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Disclosure</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Karen-KR-Disclosure.png" alt="partner-icon">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Terms</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/KR_Financial_TERMS_OF_ENGAGEMENT-page-001.jpg" alt="partner-icon">
+                    <img src="img/KR_Financial_TERMS_OF_ENGAGEMENT-page-002.jpg" alt="partner-icon">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Privacy</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/0001.jpg" alt="partner-icon">
+                    <img src="img/0002.jpg" alt="partner-icon">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
