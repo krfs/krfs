@@ -665,12 +665,19 @@ header {
     }
     .detail-title {
         padding-top: 20px;
+        font-size: 2.5em;
+    }
+    .detail-content {
+        font-size: 1.5em;
     }
     .detail-item-content-container {
         margin-bottom: 50px;
     }
     .partner-icon {
         padding: 0 20px;
+    }
+    .footer p, .footer a {
+        font-size: 1.5em;
     }
 }
 
