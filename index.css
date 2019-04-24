@@ -569,11 +569,11 @@ header {
 .detail-title {
     padding-top: 20px;
     color: red;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .detail-content {
-    font-size: 18px;
+    font-size: 1em;
     color: black;
 }
 
@@ -591,6 +591,10 @@ header {
 
 .footer {
     background-color: #4d4d4d;
+}
+
+.footer p, .footer a {
+    font-size: 1em;
 }
 
 .footer-container {
